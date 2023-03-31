@@ -11,6 +11,8 @@
 
 #![warn(rust_2018_idioms)]
 
+extern crate eyra;
+
 use tokio::io::AsyncWriteExt;
 use tokio::net::TcpStream;
 

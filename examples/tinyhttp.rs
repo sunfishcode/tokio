@@ -13,6 +13,8 @@
 
 #![warn(rust_2018_idioms)]
 
+extern crate eyra;
+
 use bytes::BytesMut;
 use futures::SinkExt;
 use http::{header::HeaderValue, Request, Response, StatusCode};
