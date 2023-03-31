@@ -13,6 +13,8 @@
 
 #![warn(rust_2018_idioms)]
 
+mustang::can_run_this!();
+
 use bytes::BytesMut;
 use futures::SinkExt;
 use http::{header::HeaderValue, Request, Response, StatusCode};
